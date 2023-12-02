@@ -12,6 +12,14 @@ class Customer {
     this.lastName = lastName;
     this.phone = phone;
     this.notes = notes;
+    this.fullName = this.fullName();
+  }
+
+  /** function that returns the first and last names joined by a space */
+
+  fullName() {
+    const full_name = this.firstName + " " + this.lastName;
+    return full_name;
   }
 
   /** find all customers. */

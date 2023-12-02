@@ -1,0 +1,28 @@
+{
+  "name": "express-lunchly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gucci-Man/Reservation-App.git"
+  },
+  "author": "Adel Ngo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gucci-Man/Reservation-App/issues"
+  },
+  "homepage": "https://github.com/Gucci-Man/Reservation-App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "nunjucks": "^3.2.4",
+    "pg": "^8.11.3",
+    "supertest": "^6.3.3"
+  }
+}
